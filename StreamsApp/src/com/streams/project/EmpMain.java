@@ -94,7 +94,7 @@ public class EmpMain {
 		Iterator<Employee> newIt = kStream.iterator();
 		while (newIt.hasNext()) {
 			Employee e = (Employee) newIt.next();
-			System.out.println(e);
+			System.out.println(e.name);
 		}
 
 	}
